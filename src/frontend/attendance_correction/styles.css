@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+}
+
+body{
+  font-family: "YuGothic","游ゴシック体";
+  width:1250px;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+.content_box{
+  background-color: white;
+  height: auto;
+  min-height:100%;
+  width:80%;
+  margin: 30px auto ;
+  padding:20px;
+}
