@@ -17,6 +17,7 @@ body{
   margin: 30px auto ;
   padding:20px;
 }
+
 h1{
   color:#504946;
   margin: auto;
@@ -36,17 +37,41 @@ h1{
   color:#2d2d2d;
 }
 
+table{
+  border: 1px solid red;
+  margin:auto;
+  width:100%;
+  /* padding:30px; */
+}
+
+tr,th{
+  border:solid 1px blue;
+}
+
+tr,td{
+  border:solid 1px yellow;
+  text-align: center;
+}
+
+th{
+  color: white;
+  background-color: #7a7a7a;
+}
+
 .attentance_detail{
   border:solid 1px #504946;
-  padding:30px;
+  padding:20px;
   margin:10px;
+  list-style-type: none;
 }
 
 .detail_center{
   text-align: center;
+  width:100%;
 }
+
 #details{
-  border:solid 1px blue;
+  /* border:solid 1px blue; */
   padding:20px;
   /* margin:10px */
 }
