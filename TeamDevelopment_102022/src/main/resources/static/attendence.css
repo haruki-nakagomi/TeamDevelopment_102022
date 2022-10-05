@@ -26,20 +26,6 @@ body {
 .contents {
     height: 640px;
 }
-
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
-	height: 0;
-	visibility: hidden;
-}
-.p{
- margin-top: 20px;
-}
-.br{
-margin-top: 100px;
-}
 input[type="date"] {
     border: 1px solid #999;
 }
@@ -62,7 +48,7 @@ input[type="time"]:focus {
  label1{
     border-bottom: 2px solid #000;
   }
-  label2{
+.label2{
     font-size:17px;
   }
   h2 {
@@ -76,3 +62,4 @@ input[type="time"]:focus {
     font-size: 38px;
     border-bottom: 6px double #000;
   }
+  

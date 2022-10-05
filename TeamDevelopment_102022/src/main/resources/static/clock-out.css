@@ -26,20 +26,6 @@ body {
 .contents {
     height: 640px;
 }
-
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
-	height: 0;
-	visibility: hidden;
-}
-.p{
- margin-top: 10px;
-}
-.br{
-margin-top: 100px;
-}
 input[type="date"] {
     border: 1px solid #999;
 }
