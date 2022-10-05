@@ -1,0 +1,72 @@
+body,p,form,label,input {
+    font-family: "游ゴシック体","YuGothic","游ゴシック","Yu Gothic",sans-serif;
+    margin: 0;
+  }
+
+  body {
+    background-color: #e6e6e6;
+}
+
+#form {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #555;
+  }
+
+  form p {
+    font-size: 14px;
+  }
+
+  .form-title {
+    text-align: center;
+  }
+
+  .id,
+  .name {
+    margin-bottom: 20px;
+  }
+ 
+  input[type="id"],
+  input[type="name"] {
+    width: 300px;
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  #form p {
+    color: #000000;
+    font-weight: bold;
+  }
+
+  #form .form-title {
+    font-family:  "游ゴシック体","YuGothic","游ゴシック","Yu Gothic",sans-serif;;
+    font-size: 30px;
+    color: #000000;
+  } /* skin */
+
+  #form {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 1px 10px #488a9e;
+    -moz-box-shadow: 0px 1px 10px #488a9e;
+    box-shadow: 0px 1px 10px #488a9e;
+    border: solid #4eb4c2 1px;
+    background: #fafafa;
+  }
+
+  #form .form-title {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #4eb4c2;
+    margin-bottom: 20px;
+  }
+
+  .submit input {
+    text-align: center;
+  }
+
+  .sub {
+    text-align: center;
+    margin: 10px 0;
+  }
